@@ -4,7 +4,7 @@ from tkinter import *
 root = Tk()
 # Set width and height of base window
 root.geometry("424x412")
-root.resizable(0, 0)  # Prevent resizing
+root.resizable(False, False)  # Prevent resizing
 root.title("Calculator")
 
 # Global expression variable
